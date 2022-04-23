@@ -1,0 +1,451 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/*Cuerpo general de la pagina*/
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+}
+
+h1 {
+    color: rgba(184, 37, 20, 1);
+    font-size: 36px;
+}
+
+h3 {
+    font-size: 16px;
+    color: #6a6a6a;
+    margin: 25px;
+    margin-top: 0px;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+textarea {
+    height: 150px;
+}
+
+nav .active {
+    border: 2px solid rgba(184, 37, 20, 1);
+    border-radius: 20px;
+}
+
+.navbar-nav {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.nav-item a {
+    color: rgb(185, 152, 96);
+    margin-left: 20px;
+    font-size: 16px;
+    padding-top: 0.25rem !important;
+    padding-bottom: 0.25rem !important;
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+
+}
+
+.form-control {
+    border-radius: 14px;
+}
+
+.btn {
+    border-radius: 18px;
+}
+
+
+.btn-blanco {
+    background-color: white;
+    color: rgba(184, 37, 20, 1);
+}
+
+.btn-blanco:hover {
+    color: white;
+    background-color: rgb(185, 152, 96);
+}
+
+.btn-rojo {
+    background-color: rgba(184, 37, 20, 1);
+    color: white !important;
+    font-weight: 100;
+}
+
+.btn-rojo:hover {
+    color: white;
+    background-color: rgb(185, 152, 96);
+}
+
+.whatsapp {
+    background-color: rgb(185, 152, 96);
+    color: white;
+    width: 60px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-size: 25px;
+    text-align: center;
+    padding: 8px 0 15px 0;
+    right: 80px;
+    position: fixed;
+    bottom: 0px;
+}
+
+.fa-whatsapp:before {
+    content: "\f232";
+    color: white;
+}
+
+.d-flex a {
+    color: white;
+    font-size: 16px;
+
+}
+
+.col-3 i {
+    font-size: 26px;
+    margin-left: 15px;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.py-3 {
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+}
+
+/*sobre mi*/
+#sobreMi {
+    background-image: url('../images/fondo-proyectos.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#sobreMi p {
+    color: #6a6a6a;
+    font-size: 16px;
+}
+
+#sobreMi h2 {
+    font-size: 24px;
+
+}
+
+#sobreMi h3 {
+    font-size: 14px;
+    color: #282828;
+    font-weight: 300;
+    margin: 0px 0px 8px;
+}
+
+#tecnologias {
+    background-color: rgba(184, 37, 20, 1);
+    margin-top: 20px;
+    font-weight: 60%;
+}
+
+#sobreMi .card {
+
+    height: 182px;
+    border-radius: 15%;
+    text-align: center !important;
+}
+
+#sobreMi footer .fa-github {
+    color: rgb(185, 152, 96) !important;
+    font-size: 30px;
+    margin: 0px 8px;
+    padding: 8px 0px 0px;
+}
+
+#sobreMi footer .fa-linkedin-in {
+    color: rgb(185, 152, 96) !important;
+    font-size: 30px;
+    margin: 0px 8px;
+    padding: 8px 0px 0px;
+}
+
+#sobreMi .text-center {
+    color: white;
+    font-size: 16px;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.img-circle {
+    margin: 1em auto;
+    display: block;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+#experiencia h2,
+#Formacion h2 {
+    color: rgb(185, 152, 96);
+    font-weight: 400px;
+    font-size: 22px;
+}
+
+#experiencia h4,
+#Formacion h4 {
+    font-size: 17px;
+    color: rgba(184, 37, 20, 1);
+}
+
+#Formacion h2 {
+    color: rgb(185, 152, 96);
+    font-family: 'Montserrat', sans-serif;
+}
+
+#experiencia h5,
+#Formacion h5 {
+    color: #6A6A6A;
+    font-size: 14px;
+}
+
+#idiomas {
+    background-color: #eee;
+    margin-top: 40px;
+}
+
+#idiomas .card {
+    background-color: rgb(185, 152, 96);
+    border-radius: 15px;
+    padding: 40px 0;
+    font-size: 100px;
+    text-align: center !important;
+    padding-top: 45px;
+}
+
+#idiomas .card-idioma {
+    border-radius: 15px;
+}
+
+#idiomas .card {
+    height: 220px;
+}
+
+#idiomas h2 {
+    font-size: 16px;
+    color: rgba(184, 37, 20, 1);
+    text-align: left;
+    text-decoration: underline;
+}
+
+#idiomas ul {
+    padding: 0px;
+    margin-top: 15px;
+    font-size: 14px;
+    color: #282828;
+    list-style-type: none;
+}
+
+/*proyectos */
+#proyectos {
+    background-image: url('../images/fondo-proyectos.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.proyecto {
+    border: 1px solid #eee;
+    background-color: white;
+}
+
+.proyecto a {
+    color: red;
+    text-decoration: none;
+}
+
+.proyecto h2 {
+    font-size: 16px;
+    color: white;
+    text-transform: uppercase;
+    background-color: rgba(184, 37, 20, 1);
+    text-align: center;
+}
+.parrafo {
+    font-size: 14px;
+    height: 136px;
+    color: #6a6a6a;
+}
+
+#proyectos img {
+    height: 210px;
+}
+
+#proyectos footer .fa-github {
+    color: rgb(185, 152, 96);
+    font-size: 30px;
+    margin: 0px 8px;
+    padding: 8px 0px 0px;
+}
+
+#proyectos footer .fa-linkedin-in {
+    color: rgb(185, 152, 96);
+    font-size: 30px;
+    margin: 0px 8px;
+    padding: 8px 0px 0px;
+}
+#proyectos .text-center,
+footer a {
+    color: rgb(185, 152, 96) !important;
+    font-size: 16px;
+}
+
+/*inicio footer*/
+#inicio {
+    background-image: url(..//images/fondo-contacto.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#inicio footer .fa-github {
+    color: rgb(185, 152, 96);
+    font-size: 30px;
+    margin: 0px 8px;
+    padding: 8px 0px 0px;
+}
+
+#inicio footer .fa-linkedin-in {
+    color: rgb(185, 152, 96);
+    font-size: 30px;
+    margin: 0px 8px;
+    padding: 8px 0px 0px;
+}
+
+#inicio .text-center,
+footer a {
+    color: rgb(185, 152, 96);
+    font-size: 16px;
+    font-weight: 100%;
+    margin-top: 10px;
+}
+
+/*contacto */
+#contacto {
+    background-image: url('../images/fondo-contacto.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#contacto footer footer a {
+    color: white !important;
+    font-weight: 100;
+}
+
+#contacto footer .fa-github {
+    color: rgb(185, 152, 96) !important;
+    font-size: 30px;
+    margin: 0px 8px;
+    padding: 8px 0px 0px;
+}
+
+#contacto footer .fa-linkedin-in {
+    color: rgb(185, 152, 96) !important;
+    font-size: 30px;
+    margin: 0px 8px;
+    padding: 8px 0px 0px;
+}
+
+#contacto .text-center,
+footer {
+    color: white !important;
+    font-size: 16px;
+}
+
+/*Inicio*/
+#inicio {
+    background-image: url('../images/fondo-contacto.png');
+    background-repeat: no-repeat;
+    background-size: 112%;
+}
+
+#inicio .cohete {
+    height: 400px;
+    margin: 0px;
+    padding: 0px;
+}
+
+#inicio .cohete:hover {
+    height: 405px;
+}
+
+#inicio .div-cohete {
+    height: 410px;
+}
+
+#inicio .btn2 {
+    color: #370a6d;
+    cursor: pointer;
+    border: 1px solid rgba(184, 37, 20, 1);
+    border-radius: 50px;
+}
+
+.btn2 {
+    color: #370a6d;
+    background-color: white;
+    border: 1px solid rgba(184, 37, 20, 1);
+    font-weight: 100%;
+    border: none;
+}
+
+#inicio .input-home p {
+    color: white;
+    font-size: 20px;
+    border: 1px solid white;
+    border-radius: 50px;
+    font-weight: 400;
+    text-align: center;
+}
+
+/*@ Media*/
+@media (max-width: 750px) {
+    #contacto {
+        background-image: url(../images/fondo-proyectos.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+}
+@media (max-width: 750px) {
+    #inicio {
+        background-image: url(../images/fondo-proyectos.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+}
+@media (max-width: 750px) {
+    #proyecto{
+        background-image: url(../images/fondo-proyectos.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    h2{
+        font-size: 17px;
+        text-align: center;
+    }
+   
+  
+}
+@media (max-width: 750px){
+  #inicio .input-home p {
+    color: #E20000;
+    border: 1px solid #E20000;
+  }
+}
+
+
+
+
+
+
